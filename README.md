@@ -1,5 +1,5 @@
 # lightmap
-a set of functions for haskell that make it easy to simulate 2d shadow casting
+a set of functions for haskell that make it easy to simulate 2d shadow casting.
 
 This is another early Haskell project of mine. It stems from an old idea I had for a similar algorithm in Java.
 It uses an algorithm I came up with which works by enumerating and labeling the vertices of light-blocking walls by their angle from the light source, and measuring intersects with rays going through these vertices. It's extremely fast and accurate, so would do well to be used to draw shadows in realtime; for example, in a videogame utilizing light-based mechanics, or a graphical physics simulation.
